@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>Documento sin título</title>
+        
+</head>
+
+<body>
+  
+
+</style>
+<!--[if IE]><style>#menu ul li span.nivel1 {display: none;}</style><![endif]-->
+</head>
+<body>
+<div id="menu">
+<ul>
+  <li class="nivel1" tabindex="1"><span class="nivel1">Opción 1</span>
+<!--[if IE]><a href="#" class="nivel1ie">Opción 1<table class="falsa"><tr><td><![endif]-->
+	<ul class="uno">
+		<li><a href="#" id="unouno">Opción 1.1</a></li>
+		<li><a href="http://www.idplus.org">Opcion 1.2</a></li>
+	</ul>
+<!--[if IE]></td></tr></table></a><![endif]-->
+  </li>
+  <li class="nivel1" tabindex="2"><span class="nivel1">Opción 2</span>
+<!--[if IE]><a href="#" class="nivel1ie">Opción 2<table class="falsa"><tr><td><![endif]-->
+	<ul class="dos">
+		<li><a href="#">Opción 2.1</a></li>
+		<li><a href="http://www.google.es">Opción 2.2</a></li>
+		<li><a href="#">Opción 2.3</a></li>
+		<li><a href="#">Opción 2.4</a></li>
+		
+	</ul>
+<!--[if IE]></td></tr></table></a><![endif]-->
+</li>
+  <li class="nivel1" tabindex="3"><span class="nivel1">Opción 3</span>
+<!--[if IE]><a href="#" class="nivel1ie">Opción 3<table class="falsa"><tr><td><![endif]-->
+	<ul class="tres">
+		<li><a href="#"></a></li>
+		<li><a href="#">Opción 3.1</a></li>
+		<li><a href="#">Opción 3.2</a></li>
+		<li><a href="http://www.idplus.org">idplus.org</a></li>
+	</ul>
+<!--[if IE]></td></tr></table></a><![endif]-->
+</li>
+  <li class="nivel1" tabindex="4"><span class="nivel1">Opción 4</span>
+<!--[if IE]><a href="#" class="nivel1ie">Opción 1<table class="falsa"><tr><td><![endif]-->
+	<ul class="cuatro">
+		
+		<li><a href="#">Opción 4.1</a></li>
+		<li><a href="#">Opción 4.2</a></li>
+		<li><a href="#">Opción 4.3</a></li>
+		<li><a href="http://www.idplus.org">idplus.org</a></li>
+	</ul>
+<!--[if IE]></td></tr></table></a><![endif]-->
+</li>
+ 
+</ul>
+</div>
+    <div id="formulario">
+    <form id="payment">
+	<fieldset>
+		<legend>Your details</legend>
+		<ol>
+			<li>
+				<label for="name">Name</label>
+				<input id="name" name="name" type="text" placeholder="First and last name" required autofocus>
+			</li>
+			<li>
+				<label for="email">Email</label>
+				<input id="emai"l name="email" type="email" placeholder="example@domain.com" required>
+			</li>
+			<li>
+				<label for="phone">Phone</label>
+				<input id="phon"e name="phone" type="tel" placeholder="Eg. +447500000000" required>
+			</li>
+		</ol>
+	</fieldset>
+	<fieldset>
+		<legend>Delivery address</legend>
+		<ol>
+			<li>
+				<label for="address">Address</label>
+				<textarea id="address" name="address" rows=5 required></textarea>
+			</li>
+			<li>
+				<label for="postcode">Post code</label>
+				<input id="postcode" name="postcode" type="text" required>
+			</li>
+			<li>
+				<label for="country">Country</label>
+				<input id="country" name="country" type="text" required>
+			</li>
+		</ol>
+	</fieldset>
+	<fieldset>
+		<legend>Card details</legend>
+		<ol>		
+			<li>
+				<fieldset>
+					<legend>Card type</legend>
+					<ol>
+						<li>
+							<input id="visa" name="cardtype" type="radio">
+							<label for="visa">VISA</label>
+						</li>
+						<li>
+							<input id="amex" name="cardtype" type="radio">
+							<label for="amex">AmEx</label>
+						</li>
+						<li>
+							<input id="mastercard" name="cardtype" type="radio">
+							<label for="mastercard">Mastercard</label>
+						</li>
+					</ol>
+				</fieldset>
+			</li>
+			<li>
+				<label for="cardnumber">Card number</label>
+				<input id="cardnumber" name="cardnumber" type="number" required>
+			</li>
+			<li>
+				<label for="secure">Security code</label>
+				<input id="secure" name="secure" type="number" required>
+			</li>
+			<li>
+				<label for="namecard">Name on card</label>
+				<input id="namecard" name="namecard" type="text" placeholder="Exact name as on the card" required>
+			</li>
+		</ol>
+	</fieldset>
+	<fieldset>
+		<button type="submit">Buy it!</button>
+	</fieldset>
+</form>
+    </div>
+    </body>
+</html>
