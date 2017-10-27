@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+body {
+	color: white;
+	font-size: 20px;
+}
+
+#wrapper {
+	width: 900px;
+	text-align: center;
+}
+
+ul#index_cards li {
+	background-color: #BA55D3;
+	width: 170px;
+	height: 600px;
+	border: 1px solid black;
+	-webkit-border-radius: 20px;
+	position: relative;
+	float: left;
+	display: block;
+}
+
+#card-1 {
+	left:230px;
+	top: 20px;
+	-webkit-transform: rotate(-20deg);
+	z-index:1;
+}
+
+#card-2 {
+	left:120px;
+	top: 5px;
+	-webkit-transform: rotate(-10deg);
+	z-index:2;
+}
+
+#card-3 {
+	z-index:3;
+}
+
+#card-4 {
+	right: 120px;
+	top: 5px;
+	-webkit-transform: rotate(10deg);
+	z-index:2;
+}
+
+#card-5 {
+	right: 230px;
+	top: 20px;
+	-webkit-transform: rotate(20deg);
+	z-index:1;
+}
+
+#index_cards li:hover {
+	z-index:4;
+}
+
+#card-1:hover {
+		-webkit-transform: scale(1.1) rotate(-20deg);
+		-webkit-transition: 0.2s;
+}
+
+#card-2:hover {
+		-webkit-transform: scale(1.1) rotate(-10deg);
+		-webkit-transition: 0.2s;
+}
+#card-3:hover {
+		-webkit-transform: scale(1.1) rotate(0deg);
+		-webkit-transition: 0.2s;
+}
+#card-4:hover {
+		-webkit-transform: scale(1.1) rotate(10deg);
+		-webkit-transition: 0.2s;
+}
+#card-5:hover {
+		-webkit-transform: scale(1.1) rotate(20deg);
+		-webkit-transition: 0.2s;
+}
+
+li img {
+	background-color: white;
+}
+
+li p {
+	margin-left: 10px;
+	text-align: left;
+}
