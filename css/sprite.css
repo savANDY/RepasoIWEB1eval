@@ -1,0 +1,145 @@
+#wrap {
+    position: absolute;
+    width: 500px;
+}
+
+.capa1 {
+  font-size: 0.75tm;
+  width: 100px;
+  height: 100px;
+  float: left;
+  overflow: hidden;
+  background-color: #ddf;
+  background-image: url("../IMG/imagenes.jpg");
+  background-size: 600px, 600px;+
+  border: 1px solid #bbb;
+}
+
+img {
+  height: 600px;
+  width: 600px;
+}
+#unouno {
+  background-position-x: 0px;
+  background-position-y: 0px;
+}
+
+#unodos {
+  background-position-x: -500px;
+  background-position-y: 0px;
+}
+
+#unotres {
+  background-position-x: -400px;
+  background-position-y: 0px;
+}
+
+#unocuatro {
+  background-position-x: -300px;
+  background-position-y: 0px;
+}
+
+#unocinco {
+  background-position-x: -200px;
+  background-position-y: 0px;
+}
+
+#dosuno {
+  background-position-x: 0px;
+  background-position-y: 100px;
+}
+
+#dosdos {
+  background-position-x: -500px;
+  background-position-y: 100px;
+}
+
+#dostres {
+  background-position-x: -400px;
+  background-position-y: 100px;
+}
+
+#doscuatro {
+  background-position-x: -300px;
+  background-position-y: 100px;
+}
+
+#doscinco {
+  background-position-x: -200px;
+  background-position-y: 100px;
+}
+
+#tresuno {
+  background-position-x: 0px;
+  background-position-y: 200px;
+}
+
+#tresdos {
+  background-position-x: -500px;
+  background-position-y: 200px;
+}
+
+#trestres {
+  background-position-x: -400px;
+  background-position-y: 200px;
+}
+
+#trescuatro {
+  background-position-x: -300px;
+  background-position-y: 200px;
+}
+
+#trescinco {
+  background-position-x: -200px;
+  background-position-y: 200px;
+}
+
+#cuatrouno {
+  background-position-x: 0px;
+  background-position-y: 300px;
+}
+
+#cuatrodos {
+  background-position-x: -500px;
+  background-position-y: 300px;
+}
+
+#cuatrotres {
+  background-position-x: -400px;
+  background-position-y: 300px;
+}
+
+#cuatrocuatro {
+  background-position-x: -300px;
+  background-position-y: 300px;
+}
+
+#cuatrocinco {
+  background-position-x: -200px;
+  background-position-y: 300px;
+}
+
+#cincouno {
+  background-position-x: 0px;
+  background-position-y: 400px;
+}
+
+#cincodos {
+  background-position-x: -500px;
+  background-position-y: 400px;
+}
+
+#cincotres {
+  background-position-x: -400px;
+  background-position-y: 400px;
+}
+
+#cincocuatro {
+  background-position-x: -300px;
+  background-position-y: 400px;
+}
+
+#cincocinco {
+  background-position-x: -200px;
+  background-position-y: 400px;
+}
