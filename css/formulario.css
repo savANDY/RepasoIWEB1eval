@@ -1,0 +1,15 @@
+body {
+  background-color: #006666;
+}
+
+#menu li{
+  list-style:none;
+}
+
+#menu li .nivel1{
+  display: inline-block;
+  color: white;
+  background-color: #00CCCC;
+  padding: 10px;
+  border: solid 1px white;
+}
