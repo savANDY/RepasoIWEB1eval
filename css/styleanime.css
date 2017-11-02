@@ -1,0 +1,116 @@
+/* CSS DE LA PROFESORA PARA EJERCICIO ANIMACION */
+
+body{background-color:gray;}
+h1{  	padding-left: 100px;
+        padding-top: 44px;
+	/*z-index: 30;*/
+        width: 700px;
+        color: blue;
+        font: bold 170px arial;
+
+}
+#cuadro1, #cuadro2,#cuadro3 {
+    background-color: blue;
+/*background-image: url(IMG/bolaazul.jpg);*/
+height: 20px;
+position: absolute;
+width: 20px;
+}
+#cuadro1{animation:gira 5s  ;
+-webkit-animation:gira 5s    ;
+//animation-fill-mode:forwards;
+-webkit-animation-fill-mode:forwards;}
+#cuadro2{animation:gira2 5s  ;
+//-webkit-animation:gira2 5s  1  ;
+//animation-fill-mode:forwards;
+-webkit-animation-fill-mode:forwards;}
+#cuadro3{animation:gira3 5s  ;
+-webkit-animation:gira3 5s  1  ;
+//Animation-fill-mode:forwards;
+-webkit-animation-fill-mode:forwards;}
+@keyframes gira
+{
+0% {top: 0px; left: 120px; transform: rotate(0deg);}
+50% {top: 130px; left: 00px; transform: rotate(180deg);}
+100% {top: 170px; left:120px;  transform: rotate(360deg);}
+}
+
+@keyframes gira2
+{
+0% {top: 0px; left: 120px; transform: rotate(0deg);}
+50% {top: 130px; left: 000px; transform: rotate(180deg);}
+100% {top: 200px; left:520px;  transform: rotate(360deg);}
+}
+
+@keyframes gira3
+{
+0% {top: 0px; left: 120px; transform: rotate(0deg);}
+50% {top: 130px; left: 000px; transform: rotate(180deg);}
+75% {top: 194px; left: 750px; transform: rotate(270deg);}
+100% {top: 300px; left:750px;  transform: rotate(360deg);}
+}
+
+ #animacion{width:810px; float:left;  }
+ #menuvertical{width:230px; float:left;padding-top:200px;}
+
+ /*codigo menu*/
+
+ .menu{
+    padding:0;
+    list-style:none;
+    width:220px;
+    font-size:18px;
+    background:#c1c1c1;
+  }
+
+.menu li a{
+    display: block;
+    border-top: 1px solid rgba(255,255,255, 0.2);
+    background:#3e3f44;
+    text-decoration:none;
+    color:#FFF;
+    padding:10px;
+
+}
+
+.menu li ul li a{
+    font-size:14px;
+    color:#47689d;
+
+}
+/*It changes element color.Use of a .It's the one with background' */
+.menu li a:hover{
+    background:#4a6ba2;
+    -moz-transition: background 0.3s ;
+    -webkit-transition: background 0.3s ;
+    -o-transition: background 0.3s ;
+
+}
+ /*submenu*/
+.menu ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+    height:0;
+    overflow: hidden;
+    transition:1s;
+    -moz-transition:1s;
+    -webkit-transition:1s;
+}
+ /*It gives height to submenu. Father and child elements must be together*/
+.menu li:hover ul{
+    height:120px;
+
+}
+
+.menu ul li a{
+    background:#fafafa;
+}
+
+.menu ul li a:hover {
+
+    color: #fff;
+    -moz-transition: color 0.4s ease;
+    -webkit-transition: color 0.4s ease;
+    -o-transition: color 0.4s ease;
+}
