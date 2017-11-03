@@ -1,15 +1,148 @@
 body {
-  background-color: #006666;
+  background-color: #003333;
 }
 
-#menu li{
-  list-style:none;
+#menu {
+  display: block;
+  text-align: center;
+  font-size: 0.7em;
+  width: 660px;
+  margin: auto;
+  position: relative;
+  padding: 20px;
 }
 
-#menu li .nivel1{
-  display: inline-block;
+#menu ul {
+  list-style-type: none;
+}
+
+#menu ul li li {
+  float:left;
+  width: 162px;
+  margin-right: 2px;
+  position: relative;
+}
+
+#menu ul li {
+    float: left;
+}
+
+#menu ul li a, #menu ul li span {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  width: 130px;
+  margin: 3px;
+  background-color: #399;
+  border: solid 1px #fff;
+  padding: 8px;
+  position: relative;
+}
+
+#menu ul li ul {
+  display: none;
+}
+
+#menu ul li:hover li{
+  cursor: pointer;
+}
+
+#menu ul li ul li a {
+  width: 160px;
+  padding: 6px 0px 8px 0px;
+  border: none;
+  background-color: #6CC;
+  font-weight: normal;
+}
+
+#menu ul.uno {
+  left: -0px;
+}
+#menu ul.dos {
+  left: -0px;
+}
+#menu ul.tres {
+  left: -0px;
+}
+#menu ul.cuatro {
+  left: -0px;
+}
+
+#menu ul li:focus ul, #menu ul li:active ul {
+  display: block;
+  position: absolute;
+  width: 652px;
+  border: solid 1px #fff;
+  border-top: none;
+  background-color: #6CC;
+}
+
+#menu ul li ul li a:hover {
+  background-color: #336666;
+}
+
+#formulario {
+  display: block;
+  margin: auto;
+  width: 660px;
+  position: relative;
+  padding-top: 100px;
+
+}
+
+#formulario #payment{
+    background-color: #9CBC2B;
+    border-radius: 10px;
+}
+
+legend {
+  font-size: 2em;
+  color: grey;
+}
+
+#formulario li {
+  list-style: none;
+  background-color: #B9CF6A;
+  padding: 8px;
+  border-radius: 10px;
+  margin: 3px;
+}
+/*
+#menu li .nivel1 {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
   color: white;
   background-color: #00CCCC;
-  padding: 10px;
   border: solid 1px white;
+
 }
+
+#menu li li {
+display: none;
+background-color: cyan;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+color: white;
+border: solid 1px white;
+}
+
+#menu li li a {
+  text-decoration: none;
+  color: white;
+}
+
+#menu li:hover li {
+  display: block;
+}
+
+li .nivel1:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li .nivel1.active {
+    color: white;
+    background-color: #4CAF50;
+}*/
